@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './nav.css';
+@import './icon.css';
+@import './cta.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .btn-primary{
+        @apply px-5 py-4 bg-emerald-500/85 border-emerald-500/85 text-white  rounded-full duration-200 hover:opacity-75 ease-in-out capitalize font-bold;
+    }
+}

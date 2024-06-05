@@ -1,0 +1,12 @@
+/* cta background */
+#cta{
+    background-image:url('../images/bg-boost-desktop.svg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+@media (max-width:740px){
+    #cta{
+        background-image:url('../images/bg-boost-mobile.svg');
+    }
+}
